@@ -14,7 +14,7 @@ import requests
 # =============================================================================
 
 @tool
-def get_weather(location: str) -> str:
+def get_weather(location:str) -> str:
     """Get current weather for a location.
     
     Use for queries about weather, temperature, or conditions in any city.
@@ -26,17 +26,20 @@ def get_weather(location: str) -> str:
     Returns:
         Current weather information including temperature and conditions.
     """
-    response = requests.get(f"https://wttr.in/{location}?format=j1", timeout=10)
+
+    url = f"https://wttr.in/{location}?format=j1"
+    response = requests.get(url, timeout=10)
+
     response.raise_for_status()
     data = response.json()
 
     return data
 
 
+
 # =============================================================================
 # Math Tools
 # =============================================================================
-
 @tool
 def calculate(expression: str) -> str:
     """Calculate a mathematical expression.
@@ -61,51 +64,13 @@ def calculate(expression: str) -> str:
     Args:
         expression: Math expression like "2 + 2" or "15 * 7" (use standard Python operators)
     """
+
     try:
-        result = eval(expression, {"__builtins__": {}}, {})
-        print(f"[TOOL] calculate('{expression}') -> {result}")
-        return str(result)
+        result = eval(expression)
+        print(f"[TOOL] calculate ('{expression}') -> '{result}'")
     except Exception as e:
-        print(f"[ERROR] calculate failed: {e}")
-        return f"Error: {str(e)}"
-
-
+        print(f"Exception has occured with error: {e}")
+        return f"Exception has occured with error: {e}"
 
     return result
 
-
-@tool
-def search_docs(query: str, return_sample: bool = False) -> str:
-    """Search technical documentation.
-    
-    Use for: LangGraph, Ollama, Python, tools, agents, LLMs, technical concepts.
-    Examples: "langgraph", "ollama", "python tools", "agent memory"
-    
-    If not found, call again with return_sample=True to see all available topics.
-    
-    Args:
-        query: Search keywords (e.g., "langgraph", "ollama", "python")
-        return_sample: If True, returns all available topics (default: False)
-    """
-    docs = {
-        "langgraph": "LangGraph: Framework for stateful agents with LLMs",
-        "ollama": "Ollama: Run LLMs locally on your machine",
-        "python": "Python: High-level programming language",
-        "tools": "Tools let LLMs call functions to get information",
-        "memory": "Memory allows agents to remember conversation context",
-    }
-    
-    if return_sample:
-        sample_output = "Available documentation topics:\n" + "\n".join(
-            [f"- {key}: {value}" for key, value in docs.items()]
-        )
-        print(f"[TOOL] search_docs(return_sample=True) -> Returning all {len(docs)} topics")
-        return sample_output
-    
-    result = docs.get(query.lower(), "Not found")
-    print(f"[TOOL] search_docs('{query}', return_sample=False) -> {result}")
-    
-    if result == "Not found":
-        result += "\nCall again with return_sample=True to see all topics."
-    
-    return result
