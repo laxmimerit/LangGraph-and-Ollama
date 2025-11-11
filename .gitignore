@@ -166,3 +166,7 @@ cython_debug/
 *.pth 
 *.bin 
 *.db
+nul
+.claude/settings.local.json
+.claude
+*.sqlite3
