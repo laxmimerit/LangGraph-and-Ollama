@@ -27,7 +27,9 @@ def retrieve_docs(query:str, k=5):
 
     filters = utils.extract_filters(query)
     ranking_keywords = utils.generate_ranking_keywords(query)
-    results = utils.search_docs(query, filters, ranking_keywords, k=k)
+
+    # fetch more docs than needed for better ranking
+    results = utils.search_docs(query, filters, ranking_keywords, k=10*k)
 
     # rank retrieved docs
     docs = utils.rank_documents_by_keywords(results, ranking_keywords, k=k)

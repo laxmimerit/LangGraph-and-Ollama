@@ -1,65 +1,69 @@
 --- Document 1 ---
-company_name: apple
-fiscal_year: 2023
 source_file: apple 10-k 2023.pdf
 doc_type: 10-k
+page: 36
+company_name: apple
 file_hash: 068176ab665682096a79859d73b805c7b2fda05331e503f26d893b582353464e
-page: 23
+fiscal_year: 2023
 
 Content:
 
 
-## Item 7.    Management's Discussion and Analysis of Financial Condition and Results of Operations
+## Apple Inc.
 
-The following discussion should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II, Item 8 of this Form 10-K. This Item generally discusses 2023 and 2022 items and year-to-year comparisons between 2023 and 2022. Discussions of 2021 items and year-toyear comparisons between 2022 and 2021 are not included, and can be found in 'Management's Discussion and Analysis of Financial Condition and Results of Operations' in Part II, Item 7 of the Company's Annual Report on Form 10-K for the fiscal year ended September 24, 2022.
+## Notes to Consolidated Financial Statements
 
-## Fiscal Period
+## Note 1 - Summary of Significant Accounting Policies
 
-The Company's fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company's fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company's fiscal year 2023 spanned 53 weeks, whereas fiscal years 2022 and 2021 spanned 52 weeks each.
+## Basis of Presentation and Preparation
 
-## Fiscal Year Highlights
+The consolidated financial statements include the accounts of Apple Inc. and its wholly owned subsidiaries. The preparation of these consolidated financial statements and accompanying notes in conformity with GAAP requires the use of management estimates. Certain prior period amounts in the consolidated financial statements and accompanying notes have been reclassified to conform to the current period's presentation.
 
-The Company's total net sales were $383.3 billion and net income was $97.0 billion during 2023.
+The Company's fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company's fiscal quarters with calendar quarters, which occurred in the first fiscal quarter of 2023. The Company's fiscal year 2023 spanned 53 weeks, whereas fiscal years 2022 and 2021 spanned 52 weeks each. Unless otherwise stated, references to particular years, quarters, months and periods refer to the Company's fiscal years ended in September and the associated quarters, months and periods of those fiscal years.
 
-The Company's total net sales decreased 3% or $11.0 billion during 2023 compared to 2022. The weakness in foreign currencies relative to the U.S. dollar accounted for more than the entire year-over-year decrease in total net sales, which consisted primarily of lower net sales of Mac and iPhone, partially offset by higher net sales of Services.
+## Revenue
 
-The Company announces new product, service and software offerings at various times during the year. Significant announcements during fiscal year 2023 included the following:
+The Company records revenue net of taxes collected from customers that are remitted to governmental authorities.
 
-First Quarter 2023:
+## Share-Based Compensation
 
-- iPad and iPad Pro;
-- Next-generation Apple TV 4K; and
-- MLS Season Pass, a Major League Soccer subscription streaming service.
+The Company recognizes share-based compensation expense on a straight-line basis for its estimate of equity awards that will ultimately vest.
 
-## Second Quarter 2023:
+## Cash Equivalents
 
-- MacBook Pro 14', MacBook Pro 16' and Mac mini; and
-- Second-generation HomePod.
+All highly liquid investments with maturities of three months or less at the date of purchase are treated as cash equivalents.
 
-Third Quarter 2023:
+## Marketable Securities
 
-- MacBook Air 15', Mac Studio and Mac Pro;
-- Apple Vision Pro™, the Company's first spatial computer featuring its new visionOS™, expected to be available in early calendar year 2024; and
-- iOS 17, macOS Sonoma, iPadOS 17, tvOS 17 and watchOS 10, updates to the Company's operating systems.
+The cost of securities sold is determined using the specific identification method.
 
-Fourth Quarter 2023:
+## Inventories
 
-- iPhone 15, iPhone 15 Plus, iPhone 15 Pro and iPhone 15 Pro Max; and
-- Apple Watch Series 9 and Apple Watch Ultra 2.
+Inventories are measured using the first-in, first-out method.
 
-In May 2023, the Company announced a new share repurchase program of up to $90 billion and raised its quarterly dividend from $0.23 to $0.24 per share beginning in May 2023. During 2023, the Company repurchased $76.6 billion of its common stock and paid dividends and dividend equivalents of $15.0 billion.
+## Property, Plant and Equipment
 
-## Macroeconomic Conditions
+Depreciation on property, plant and equipment is recognized on a straight-line basis.
 
-Macroeconomic conditions, including inflation, changes in interest rates, and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company's results of operations and financial condition.
+## Derivative Instruments
+
+The Company presents derivative assets and liabilities at their gross fair values in the Consolidated Balance Sheets.
+
+## Income Taxes
+
+The Company records certain deferred tax assets and liabilities in connection with the minimum tax on certain foreign earnings created by the Act.
+
+## Leases
+
+The Company combines and accounts for lease and nonlease components as a single lease component for leases of corporate, data center and retail facilities.
 
 
 --- Document 2 ---
-source_file: apple 10-k 2023.pdf
 doc_type: 10-k
 fiscal_year: 2023
-page: 52
 company_name: apple
+page: 52
+source_file: apple 10-k 2023.pdf
 file_hash: 068176ab665682096a79859d73b805c7b2fda05331e503f26d893b582353464e
 
 Content:
@@ -95,48 +99,26 @@ The critical audit matter communicated below is a matter arising from the curren
 
 --- Document 3 ---
 company_name: apple
-fiscal_year: 2023
 source_file: apple 10-k 2023.pdf
-file_hash: 068176ab665682096a79859d73b805c7b2fda05331e503f26d893b582353464e
 doc_type: 10-k
-page: 31
+fiscal_year: 2023
+page: 37
+file_hash: 068176ab665682096a79859d73b805c7b2fda05331e503f26d893b582353464e
 
 Content:
 
 
-## Apple Inc.
+## Note 2 - Revenue
 
-## CONSOLIDATED STATEMENTS OF OPERATIONS
+The Company recognizes revenue at the amount to which it expects to be entitled when control of the products or services is transferred to its customers. Control is generally transferred when the Company has a present right to payment and title and the significant risks and rewards of ownership of products or services  are  transferred  to  its  customers.  For  most  of  the  Company's  Products  net  sales,  control  transfers  when  products  are  shipped.  For  the  Company's Services net sales, control transfers over time as services are delivered. Payment for Products and Services net sales is collected within a short period following transfer of control or commencement of delivery of services, as applicable.
 
-(In millions, except number of shares, which are reflected in thousands, and per-share amounts)
+The Company records reductions to Products net sales related to future product returns, price protection and other customer incentive programs based on the Company's expectations and historical experience.
 
-|                                              | Years ended        | Years ended        | Years ended        |
-|----------------------------------------------|--------------------|--------------------|--------------------|
-|                                              | September 30, 2023 | September 24, 2022 | September 25, 2021 |
-| Net sales:                                   |                    |                    |                    |
-| Products                                     | $ 298,085          | $ 316,199          | $ 297,392          |
-| Services                                     | 85,200             | 78,129             | 68,425             |
-| Total net sales                              | 383,285            | 394,328            | 365,817            |
-| Cost of sales:                               |                    |                    |                    |
-| Products                                     | 189,282            | 201,471            | 192,266            |
-| Services                                     | 24,855             | 22,075             | 20,715             |
-| Total cost of sales                          | 214,137            | 223,546            | 212,981            |
-| Gross margin                                 | 169,148            | 170,782            | 152,836            |
-| Operating expenses:                          |                    |                    |                    |
-| Research and development                     | 29,915             | 26,251             | 21,914             |
-| Selling, general and administrative          | 24,932             | 25,094             | 21,973             |
-| Total operating expenses                     | 54,847             | 51,345             | 43,887             |
-| Operating income                             | 114,301            | 119,437            | 108,949            |
-| Other income/(expense), net                  | (565)              | (334)              | 258                |
-| Income before provision for income taxes     | 113,736            | 119,103            | 109,207            |
-| Provision for income taxes                   | 16,741             | 19,300             | 14,527             |
-| Net income                                   | $ 96,995           | $ 99,803           | $ 94,680           |
-| Earnings per share:                          |                    |                    |                    |
-| Basic                                        | $ 6.16             | $ 6.15             | $ 5.67             |
-| Diluted                                      | $ 6.13             | $ 6.11             | $ 5.61             |
-| Shares used in computing earnings per share: |                    |                    |                    |
-| Basic                                        | 15,744,231         | 16,215,963         | 16,701,272         |
-| Diluted                                      | 15,812,547         | 16,325,819         | 16,864,919         |
+For arrangements with multiple performance obligations, which represent promises within an arrangement that are distinct, the Company allocates revenue to all distinct performance obligations based on their relative stand-alone selling prices ('SSPs'). When available, the Company uses observable prices to determine SSPs. When observable prices are not available, SSPs are established that reflect the Company's best estimates of what the selling prices of the performance obligations  would  be  if  they  were  sold  regularly  on  a  stand-alone  basis.  The  Company's  process  for  estimating  SSPs  without  observable  prices  considers multiple factors that may vary depending upon the unique facts and circumstances related to each performance obligation including, where applicable, prices charged by the Company for similar offerings, market trends in the pricing for similar offerings, product-specific business objectives and the estimated cost to provide the performance obligation.
 
-See accompanying Notes to Consolidated Financial Statements.
+The Company has identified up to three performance obligations regularly included in arrangements involving the sale of iPhone, Mac, iPad and certain other products. The first performance obligation, which represents the substantial portion of the allocated sales price, is the hardware and bundled software delivered at the time of sale. The second performance obligation is the right to receive certain product-related bundled services, which include iCloud , Siri and Maps. The third performance obligation is the right to receive, on a when-and-if-available basis, future unspecified software upgrades relating to the software bundled with  each  device.  The  Company  allocates  revenue  and  any  related  discounts  to  these  performance  obligations  based  on  their  relative  SSPs.  Because  the Company lacks observable prices for the undelivered performance obligations, the allocation of revenue is based on the Company's estimated SSPs. Revenue allocated to the delivered hardware and bundled software is recognized when control has transferred to the customer, which generally occurs when the product is  shipped. Revenue allocated to the product-related bundled services and unspecified software upgrade rights is deferred and recognized on a straight-line basis over the estimated period they are expected to be provided. ® ®
+
+For  certain  long-term  service  arrangements,  the  Company  has  performance  obligations  for  services  it  has  not  yet  delivered.  For  these  arrangements,  the Company does not have a right to bill for the undelivered services. The Company has determined that any unbilled consideration relates entirely to the value of the undelivered services. Accordingly, the Company has not recognized revenue, and does not disclose amounts, related to these undelivered services.
+
+For the sale of third-party products where the Company obtains control of the product before transferring it to the customer, the Company recognizes revenue based on the gross amount billed to customers. The Company considers multiple factors when determining whether it obtains control of third-party products, including evaluating if it can establish the price of the product, retains inventory risk for tangible products or has the responsibility for ensuring acceptability of the product.  For  third-party  applications  sold  through  the App  Store,  the  Company  does  not  obtain  control  of  the  product  before  transferring  it  to  the  customer. Therefore, the Company accounts for all third-party application-related sales on a net basis by recognizing in Services net sales only the commission it retains.
 
