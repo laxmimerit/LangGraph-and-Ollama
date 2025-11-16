@@ -1,29 +1,43 @@
-Query: What was Amazon's revenue in 2023?
+Query: Compare Apple and Amazon revenue in 2024 q1
 
-## Amazon's 2023 Revenue
+## Apple vs. Amazon Q1 2024 Revenue Comparison
 
-Amazon's total **revenue (net sales)** for the fiscal year ended December 31, 2023, was **$574.785 billion** [2]. This represents a **12% year-over-year increase** compared to 2022, when revenue was $513.983 billion [2]. 
+### **Apple Inc. Revenue**
+Apple's total revenue for Q1 2024 (three months ended March 30, 2024) was **$90.75 billion** [3]. This represents a **4.3% decline** compared to Q1 2023 ($94.84 billion) [3]. Key contributors to this revenue included:
+- **iPhone**: $45.96 billion (50.7% of total revenue)
+- **Services**: $23.87 billion (26.3% of total revenue)
+- **Wearables, Home, and Accessories**: $7.91 billion (8.7% of total revenue)
+- **Mac and iPad**: $12.90 billion (14.2% of total revenue) [3]
 
-### Breakdown by Segment
-Amazon's revenue is divided into three segments:
-- **North America**: $352.828 billion (61% of total revenue)
-- **International**: $131.200 billion (23% of total revenue)
-- **AWS**: $90.757 billion (16% of total revenue)
+Apple's revenue decline was partly due to lower iPhone sales and a shift in deferred revenue recognition, with $3.3 billion of revenue from deferred balances in Q1 2024 [3].
 
-### Key Drivers of Growth
-- **North America** saw 12% growth, driven by increased unit sales from third-party sellers, advertising, and subscription services [2].
-- **International** revenue rose 11%, benefiting from similar factors, with foreign exchange rates positively impacting results by $88 million [2].
-- **AWS** grew by 13%, contributing significantly to overall expansion [2].
+---
 
-### Adjustments and Context
-- **Foreign exchange rates** reduced net sales by $71 million in 2023, though the 12% growth rate reflects adjustments for these effects [2].
-- The **consolidated revenue mix** remained consistent across segments, with no significant shifts in proportion [2].
+### **Amazon.com Inc. Revenue**
+Amazon's total revenue for Q1 2024 (three months ended March 31, 2024) was **$143.31 billion**, a **13% increase** compared to Q1 2023 ($127.36 billion) [1]. This growth was driven by:
+- **North America**: $86.34 billion (60% of total revenue)
+- **International**: $31.94 billion (22% of total revenue)
+- **AWS**: $25.04 billion (18% of total revenue) [1]
 
-### Additional Insights
-- **Unearned revenue** as of December 31, 2023, reached $20.6 billion, reflecting prepayments for AWS services and Amazon Prime memberships [3].
-- **Free cash flow** remained a key focus, though specific figures are detailed in the "Non-GAAP Financial Measures" section of the 10-K [1].
+Amazon attributed the growth to increased unit sales, third-party seller activity, advertising, and subscription services. Notably, foreign exchange rates reduced net sales by $164 million in Q1 2024 [1].
+
+---
+
+### **Key Comparisons**
+| **Metric**                | **Apple**                | **Amazon**               |
+|--------------------------|--------------------------|--------------------------|
+| **Total Revenue (Q1 2024)** | $90.75 billion           | $143.31 billion          |
+| **YoY Growth**            | -4.3%                    | +13%                     |
+| **Largest Segment**       | iPhone (50.7%)           | AWS (18%)                |
+| **Revenue Drivers**       | iPhone, Services         | Advertising, AWS, Retail |
+
+---
+
+### **Additional Insights**
+- **Deferred Revenue**: Apple had $12.6 billion in deferred revenue as of March 30, 2024, with 64% expected to be recognized within a year [3].
+- **Amazon’s Unearned Revenue**: Amazon reported $20.9 billion in unearned revenue as of December 31, 2023, with $6.1 billion recognized in Q1 2024 [2].
 
 **References:**
-1. Company: Amazon, Year: 2023, Quarter: Full Year, Page: 20  
-2. Company: Amazon, Year: 2023, Quarter: Full Year, Page: 24  
-3. Company: Amazon, Year: 2023, Quarter: Full Year, Page: 51
+1. Company: amazon, Year: 2024, Quarter: q1, Page: 25  
+2. Company: amazon, Year: 2024, Quarter: q1, Page: 9  
+3. Company: apple, Year: 2024, Quarter: q1, Page: 9
