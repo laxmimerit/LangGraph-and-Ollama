@@ -1,133 +1,124 @@
 --- Document 1 ---
-doc_type: 10-k
-file_hash: 1dceed8775b7b56432618aff917e08f9fe9573921f397a79b14bad5ab31e469a
-page: 63
-company_name: google
-fiscal_year: 2023
-source_file: google 10-k 2023.pdf
+company_name: apple
+fiscal_quarter: q1
+source_file: apple 10-q q1 2024.pdf
+file_hash: b19b1f176c5ceaf9e6ea52907013480eb17716962351f8fdfe0ad4b13bb33ed0
+doc_type: 10-q
+fiscal_year: 2024
+page: 15
 
 Content:
 
 
-to generate. If the carrying value of the assets or asset group is not recoverable, the impairment recognized is measured as the amount by which the carrying value exceeds its fair value.
+A reconciliation of the Company's segment operating income to the Condensed Consolidated Statements of Operations for the three- and six-month periods ended March 30, 2024 and April 1, 2023 is as follows (in millions):
 
-## Income Taxes
-
-We account for income taxes using the asset and liability method, under which we recognize the amount of taxes payable or refundable for the current year and deferred tax assets and liabilities for the future tax consequences of events that have been recognized in our financial statements or tax returns. We measure current and deferred tax assets and liabilities based on provisions of enacted tax law. We evaluate the likelihood of future realization of our deferred tax assets based on all available evidence and establish a valuation allowance to reduce deferred tax assets when it is more likely than not that they will not be realized or release a valuation allowance to increase deferred tax assets when it is more likely than not that they will be realized. We have elected to account for the tax effects of the global intangible low tax Income provision as a current period expense.
-
-We recognize the financial statement effects of a tax position when it is more likely than not that, based on technical merits, the position will be sustained upon examination. The tax benefits of the position recognized in the financial statements are then measured based on the largest amount of benefit that is greater than 50% likely to be realized upon settlement with a taxing authority. In addition, we recognize interest and penalties related to unrecognized tax benefits as a component of the income tax provision.
-
-## Business Combinations
-
-We include  the  results  of  operations  of  the  businesses  that  we  acquire  as  of  the  acquisition  date.  We  allocate  the  purchase  price  of  the acquisitions to the assets acquired and liabilities assumed based on their estimated fair values, except for revenue contracts acquired, which are recognized  in  accordance  with  our  revenue  recognition  policy.  The  excess  of  the  purchase  price  over  the  fair  values  of  identifiable  assets  and liabilities  is  recorded  as  goodwill.  Acquisition-related  expenses  are  recognized  separately  from  the  business  combination  and  are  expensed  as incurred.
-
-## Foreign Currency
-
-We translate the financial statements of our international subsidiaries to U.S. dollars using month-end exchange rates for assets and liabilities, and average rates for the annual period derived from month-end exchange rates for revenues, costs, and expenses. We record translation gains and losses in AOCI as a component of stockholders' equity. We reflect net foreign exchange transaction gains and losses resulting from the conversion of the transaction currency to functional currency as a component of foreign currency exchange gain (loss) in OI&amp;E.
-
-## Recent Accounting Pronouncements
-
-In November 2023, the Financial Standards Accounting Board (FASB) issued Accounting Standards Update (ASU) 2023-07 "Segment Reporting (Topic 280):Improvements to Reportable Segment Disclosures" which expands annual and interim disclosure requirements for reportable segments, primarily through enhanced disclosures about significant segment expenses. ASU 2023-07 is effective for our annual periods beginning January 1, 2024,  and  for  interim  periods  beginning  January  1,  2025,  with  early  adoption  permitted.  We  are  currently  evaluating  the  potential  effect  that  the updated standard will have on our financial statement disclosures.
-
-In  December  2023,  the  FASB  issued ASU  2023-09  "Income  Taxes  (Topics  740):  Improvements  to  Income  Tax  Disclosures"  to  expand  the disclosure requirements for income taxes, specifically related to the rate reconciliation and income taxes paid. ASU 2023-09 is effective for our annual periods beginning January 1, 2025, with early adoption permitted. We are currently evaluating the potential effect that the updated standard will have on our financial statement disclosures.
-
-## Prior Period Reclassifications
-
-Certain amounts in prior periods have been reclassified to conform with current period presentation.
+|                                  | Three Months Ended   | Three Months Ended   | Six Months Ended   | Six Months Ended   |
+|----------------------------------|----------------------|----------------------|--------------------|--------------------|
+|                                  | March 30, 2024       | April 1, 2023        | March 30, 2024     | April 1, 2023      |
+| Segment operating income         | $ 37,706             | $ 37,488             | $ 87,794           | $ 82,893           |
+| Research and development expense | (7,903)              | (7,457)              | (15,599)           | (15,166)           |
+| Other corporate expenses, net    | (1,903)              | (1,713)              | (3,922)            | (3,393)            |
+| Total operating income           | $ 27,900             | $ 28,318             | $ 68,273           | $ 64,334           |
 
 
 --- Document 2 ---
-fiscal_year: 2023
-company_name: google
-doc_type: 10-k
-source_file: google 10-k 2023.pdf
-page: 13
-file_hash: 1dceed8775b7b56432618aff917e08f9fe9573921f397a79b14bad5ab31e469a
+fiscal_quarter: q1
+fiscal_year: 2024
+source_file: apple 10-q q1 2024.pdf
+page: 11
+company_name: apple
+doc_type: 10-q
+file_hash: b19b1f176c5ceaf9e6ea52907013480eb17716962351f8fdfe0ad4b13bb33ed0
 
 Content:
 
 
-that are seen to be, substantially similar to or better than ours. These technologies could reduce usage of our products and services, and force us to compete in different ways and expend significant resources to develop and operate equal or better products and services. Competitors' success in providing compelling products and services or in attracting and retaining users, advertisers, publishers, customers, and content providers could harm our financial condition and operating results.
+|                                           | September 30, 2023   | September 30, 2023   | September 30, 2023   | September 30, 2023   | September 30, 2023        | September 30, 2023            | September 30, 2023                |
+|-------------------------------------------|----------------------|----------------------|----------------------|----------------------|---------------------------|-------------------------------|-----------------------------------|
+|                                           | Adjusted Cost        | Unrealized Gains     | Unrealized Losses    | Fair Value           | Cash and Cash Equivalents | Current Marketable Securities | Non-Current Marketable Securities |
+| Cash                                      | $ 28,359             | $ -                  | $ -                  | $ 28,359             | $ 28,359                  | $ -                           | $ -                               |
+| Level 1:                                  |                      |                      |                      |                      |                           |                               |                                   |
+| Money market funds                        | 481                  | -                    | -                    | 481                  | 481                       | -                             | -                                 |
+| Mutual funds and equity securities        | 442                  | 12                   | (26)                 | 428                  | -                         | 428                           | -                                 |
+| Subtotal                                  | 923                  | 12                   | (26)                 | 909                  | 481                       | 428                           | -                                 |
+| Level 2 : (1)                             |                      |                      |                      |                      |                           |                               |                                   |
+| U.S. Treasury securities                  | 19,406               | -                    | (1,292)              | 18,114               | 35                        | 5,468                         | 12,611                            |
+| U.S. agency securities                    | 5,736                | -                    | (600)                | 5,136                | 36                        | 271                           | 4,829                             |
+| Non-U.S. government securities            | 17,533               | 6                    | (1,048)              | 16,491               | -                         | 11,332                        | 5,159                             |
+| Certificates of deposit and time deposits | 1,354                | -                    | -                    | 1,354                | 1,034                     | 320                           | -                                 |
+| Commercial paper                          | 608                  | -                    | -                    | 608                  | -                         | 608                           | -                                 |
+| Corporate debt securities                 | 76,840               | 6                    | (5,956)              | 70,890               | 20                        | 12,627                        | 58,243                            |
+| Municipal securities                      | 628                  | -                    | (26)                 | 602                  | -                         | 192                           | 410                               |
+| Mortgage- and asset-backed securities     | 22,365               | 6                    | (2,735)              | 19,636               | -                         | 344                           | 19,292                            |
+| Subtotal                                  | 144,470              | 18                   | (11,657)             | 132,831              | 1,125                     | 31,162                        | 100,544                           |
+| Total (2)                                 | $ 173,752            | $ 30                 | $ (11,683)           | $ 162,099            | $ 29,965                  | $ 31,590                      | $ 100,544                         |
 
-## Our ongoing investment in new businesses, products, services, and technologies is inherently risky, and could divert management attention and harm our business, financial condition, and operating results.
+(1) The valuation techniques used to measure the fair values of the Company's Level 2 financial instruments, which generally have counterparties with high credit ratings, are based on quoted market prices or model-driven valuations using significant inputs derived from or corroborated by observable market data.
 
-We have invested and expect to continue to invest in new businesses, products, services, and technologies in a wide range of industries beyond online advertising. The investments that we are making across our businesses, such as building AI capabilities into new and existing products and services, reflect our ongoing efforts to innovate and provide products and services that are helpful to users, advertisers, publishers, customers, and content providers. Our investments ultimately may not be commercially viable or may not result in an adequate return of capital and, in pursuing new strategies, we may incur unanticipated liabilities. Innovations in our products and services could also result in changes to user behavior and affect our revenue trends. These endeavors involve significant risks and uncertainties, including diversion of resources and management attention from current operations, different monetization models, and the use of alternative investment, governance, or compensation structures that may fail to adequately align incentives across the company or otherwise accomplish their objectives.
+(2) As of March 30, 2024 and September 30, 2023, total marketable securities included $14.0 billion and $13.8 billion, respectively, that were restricted from general use, related to the European Commission decision finding that Ireland granted state aid to the Company, and other agreements.
 
-Within Google Services, we continue to invest heavily in devices, including our smartphones, home devices, and wearables, which is a highly competitive market with frequent introduction of new products and services, rapid adoption of technological advancements by competitors, increased market  saturation in developed  countries, short product life cycles, evolving industry  standards,  continual  improvement  in  performance characteristics, and price and feature sensitivity on the part of consumers and businesses. There can be no assurance we will be able to provide devices that compete effectively.
+The following table shows the fair value of the Company's non-current marketable debt securities, by contractual maturity, as of March 30, 2024 (in millions):
 
-Within  Google  Cloud,  we  devote  significant  resources  to  develop  and  deploy  our  enterprise-ready  cloud  services,  including  Google  Cloud Platform and Google Workspace, and we are advancing our AI platforms and models to support these tools and technologies. We are incurring costs to build and maintain infrastructure to support cloud computing services, invest in cybersecurity, and hire talent, particularly to support and scale our sales  force.  At  the  same  time,  our  competitors  are  rapidly  developing  and  deploying  cloud-based  services.  Pricing  and  delivery  models  are competitive and constantly evolving, and we may not attain sufficient scale and profitability to achieve our business objectives. Further, our business with public sector customers may present additional risks, including regulatory compliance risks. For instance, we may be subject to government audits and cost reviews, and any failure to comply or any deficiencies found may expose us to legal, financial, and/or reputational risks. Evolving laws and  regulations  may  require  us  to  make  new  capital  investments,  build  new  products,  and  seek  partners  to  deliver  localized  services  in  other countries, and we may not be able to meet sovereign operating requirements.
+| Due after 1 year through 5 years   | $ 67,987   |
+|------------------------------------|------------|
+| Due after 5 years through 10 years | 9,108      |
+| Due after 10 years                 | 18,092     |
+| Total fair value                   | $ 95,187   |
 
-Within Other Bets, we are investing significantly in the areas of health, life sciences, and transportation, among others. These investment areas face intense competition from large, experienced, and well-funded competitors, and our offerings, many of which involve the development of new and emerging technologies, may not be successful, or be able to compete effectively or operate at sufficient levels of profitability.
+## Derivative Instruments and Hedging
 
-In  addition,  new  and  evolving  products  and  services,  including  those  that  use  AI,  raise  ethical,  technological,  legal,  regulatory,  and  other challenges, which may negatively affect our brands and demand for our products and services. Because all of these investment areas are inherently risky, no assurance can be given that such strategies and offerings will be successful or will not harm our reputation, financial condition, and operating results.
+The Company may use derivative instruments to partially offset its business exposure to foreign exchange and interest rate risk. However, the Company may choose not  to  hedge  certain  exposures  for  a  variety  of  reasons,  including  accounting  considerations  or  the  prohibitive  economic  cost  of  hedging  particular exposures. There can be no assurance the hedges will offset more than a portion of the financial impact resulting from movements in foreign exchange or interest rates.
 
-## Our revenue growth rate could decline over time, and we may experience downward pressure on our operating margin in the future.
+## Foreign Exchange Rate Risk
 
-Our revenue growth rate could decline over time as a result of a number of factors, including changes in the devices and modalities used to access our products and services; changes in geographic mix; deceleration or declines in advertiser spending; competition; customer usage and demand for our products; decreases in our pricing of our products and services; ongoing product and policy changes; and shifts to lower priced products and services.
+To protect gross margins from fluctuations in foreign exchange rates, the Company may use forwards, options or other instruments, and may designate these instruments as cash flow hedges. The Company generally hedges portions of its forecasted foreign currency exposure associated with revenue and inventory purchases, typically for up to 12 months.
 
-In addition, we may experience downward pressure on our operating margin resulting from a variety of factors, such as an increase in the mix of lower-margin products and services, in particular from the continued expansion of our business into new fields, including products and services such as our devices, Google Cloud, and consumer subscription products, as well as significant investments in Other Bets, all of which may have margins lower than those we generate from advertising. In particular, margins on our devices have had, and may continue to have, an adverse effect on our consolidated margins due to pressures on pricing and higher cost of sales. We may also experience
+To protect the Company's foreign currency-denominated term debt or marketable securities from fluctuations in foreign exchange rates, the Company may use forwards, cross-currency swaps or other instruments. The Company designates these instruments as either cash flow or fair value hedges. As of March 30, 2024, the maximum length of time over which the Company is hedging its exposure to the variability in future cash flows for term debt-related foreign currency transactions is 18 years.
+
+The Company may also use derivative instruments that are not designated as accounting hedges to protect gross margins from certain fluctuations in foreign exchange  rates,  as  well  as  to  offset  a  portion  of  the  foreign  currency  gains  and  losses  generated  by  the  remeasurement  of  certain  assets  and  liabilities denominated in non-functional currencies.
 
 
 --- Document 3 ---
-fiscal_year: 2023
-company_name: google
-page: 64
-doc_type: 10-k
-file_hash: 1dceed8775b7b56432618aff917e08f9fe9573921f397a79b14bad5ab31e469a
-source_file: google 10-k 2023.pdf
+page: 9
+doc_type: 10-q
+source_file: apple 10-q q1 2024.pdf
+company_name: apple
+file_hash: b19b1f176c5ceaf9e6ea52907013480eb17716962351f8fdfe0ad4b13bb33ed0
+fiscal_year: 2024
+fiscal_quarter: q1
 
 Content:
 
 
-## Note 2. Revenues
+## Apple Inc.
 
-## Disaggregated Revenues
+## Notes to Condensed Consolidated Financial Statements (Unaudited)
 
-The following table presents revenues disaggregated by type (in millions):
+## Note 1 - Summary of Significant Accounting Policies
 
-|                                              | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
-|----------------------------------------------|---------------------------|---------------------------|---------------------------|
-|                                              | 2021                      | 2022                      | 2023                      |
-| Google Search & other                        | $ 148,951                 | $ 162,450                 | $ 175,033                 |
-| YouTube ads                                  | 28,845                    | 29,243                    | 31,510                    |
-| Google Network                               | 31,701                    | 32,780                    | 31,312                    |
-| Google advertising                           | 209,497                   | 224,473                   | 237,855                   |
-| Google subscriptions, platforms, and devices | 28,032                    | 29,055                    | 34,688                    |
-| Google Services total                        | 237,529                   | 253,528                   | 272,543                   |
-| Google Cloud                                 | 19,206                    | 26,280                    | 33,088                    |
-| Other Bets                                   | 753                       | 1,068                     | 1,527                     |
-| Hedging gains (losses)                       | 149                       | 1,960                     | 236                       |
-| Total revenues                               | $ 257,637                 | $ 282,836                 | $ 307,394                 |
+## Basis of Presentation and Preparation
 
-No individual customer or groups of affiliated customers represented more than 10% of our revenues in 2021, 2022, or 2023.
+The condensed consolidated financial statements include the accounts of Apple Inc. and its wholly owned subsidiaries (collectively 'Apple' or the 'Company'). In the opinion of the Company's management, the condensed consolidated financial statements reflect all adjustments, which are normal and recurring in nature, necessary for fair financial statement presentation. The preparation of these condensed consolidated financial statements and accompanying notes in conformity with U.S. generally accepted accounting principles ('GAAP') requires the use of management estimates. These condensed consolidated financial statements and accompanying notes should be read in conjunction with the Company's annual consolidated financial statements and accompanying notes included in its Annual Report on Form 10-K for the fiscal year ended September 30, 2023 (the '2023 Form 10-K').
 
-The following table presents revenues disaggregated by geography, based on the addresses of our customers (in millions):
+The Company's fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company's fiscal quarters with calendar quarters, which occurred in the first fiscal quarter of 2023. The Company's fiscal years 2024 and 2023 span 52 and 53 weeks, respectively. Unless otherwise stated, references to particular years, quarters, months and periods refer to the Company's fiscal years ended in September and the associated quarters, months and periods of those fiscal years.
 
-|                        | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
-|------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|
-|                        | 2021                      | 2021                      | 2022                      | 2022                      | 2023                      | 2023                      |
-| United States          | $ 117,854                 | 46%                       | $ 134,814                 | 48%                       | $ 146,286                 | 47%                       |
-| EMEA (1)               | 79,107                    | 31                        | 82,062                    | 29                        | 91,038                    | 30                        |
-| APAC (1)               | 46,123                    | 18                        | 47,024                    | 16                        | 51,514                    | 17                        |
-| Other Americas (1)     | 14,404                    | 5                         | 16,976                    | 6                         | 18,320                    | 6                         |
-| Hedging gains (losses) | 149                       | 0                         | 1,960                     | 1                         | 236                       | 0                         |
-| Total revenues         | $ 257,637                 | 100%                      | $ 282,836                 | 100%                      | $ 307,394                 | 100%                      |
+## Note 2 - Revenue
 
-Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America ("Other Americas"). (1)
+Net sales disaggregated by significant products and services for the three- and six-month periods ended March 30, 2024 and April 1, 2023 were as follows (in millions):
 
-## Revenue Backlog
+|                                 | Three Months Ended   | Three Months Ended   | Six Months Ended   | Six Months Ended   |
+|---------------------------------|----------------------|----------------------|--------------------|--------------------|
+|                                 | March 30, 2024       | April 1, 2023        | March 30, 2024     | April 1, 2023      |
+| iPhone ®                        | $ 45,963             | $ 51,334             | $ 115,665          | $ 117,109          |
+| Mac ®                           | 7,451                | 7,168                | 15,231             | 14,903             |
+| iPad ®                          | 5,559                | 6,670                | 12,582             | 16,066             |
+| Wearables, Home and Accessories | 7,913                | 8,757                | 19,866             | 22,239             |
+| Services                        | 23,867               | 20,907               | 46,984             | 41,673             |
+| Total net sales                 | $ 90,753             | $ 94,836             | $ 210,328          | $ 211,990          |
 
-As of December 31, 2023, we had $74.1 billion of remaining performance obligations ('revenue backlog'), primarily related to Google Cloud. Our revenue backlog represents commitments in customer contracts for future services that have not yet been recognized as revenue. The estimated revenue  backlog  and  timing  of  revenue  recognition  for  these  commitments  is  largely  driven  by  our  ability  to  deliver  in  accordance  with  relevant contract terms and when our customers utilize services. We expect to recognize approximately half of the revenue backlog as revenues over the next 24 months with the remaining to be recognized thereafter. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.
+Total net sales include $3.3 billion of revenue recognized in the three months ended March 30, 2024 that was included in deferred revenue as of December 30, 2023, $3.5 billion of revenue recognized in the three months ended April 1, 2023 that was included in deferred revenue as of December 31, 2022, $5.1 billion of revenue recognized in the six months ended March 30, 2024 that was included in deferred revenue as of September 30, 2023, and $5.5 billion of revenue recognized in the six months ended April 1, 2023 that was included in deferred revenue as of September 24, 2022.
 
-## Deferred Revenues
+The  Company's  proportion  of  net  sales  by  disaggregated  revenue  source  was  generally  consistent  for  each  reportable  segment  in  Note  10,  'Segment Information and Geographic Data' for the three- and six-month periods ended March 30, 2024 and April 1, 2023, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales.
 
-We record deferred revenues when cash payments are received or due in advance of our performance, including amounts which are refundable. Deferred revenues primarily relate to Google Cloud and Google subscriptions, platforms, and devices. Total deferred revenue as of December 31, 2022 was $4.5 billion, of which $2.4 billion was recognized as revenues for the year ended December 31, 2023.
-
-## Note 3. Financial Instruments
-
-## Fair Value Measurements
-
-## Investments Measured at Fair Value on a Recurring Basis
-
-Cash, cash equivalents, and marketable equity securities are measured at fair value and classified within Level 1
+As of March 30, 2024 and September 30, 2023, the Company had total deferred revenue of $12.6 billion and $12.1 billion, respectively. As of March 30, 2024, the Company expects 64% of total deferred revenue to be realized in less than a year, 26% within one-to-two years, 9% within two-to-three years and 1% in greater than three years.
 

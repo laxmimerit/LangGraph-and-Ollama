@@ -1,32 +1,29 @@
-Query: What was Google's revenue in 2023?
+Query: What was Amazon's revenue in 2023?
 
-## Google's 2023 Revenue
+## Amazon's 2023 Revenue
 
-Google's total revenue for the fiscal year ended December 31, 2023, was **$307.394 billion**. This figure is derived from the consolidated financial statements disclosed in the 10-K report, which breaks down revenue by business segments and geographic regions [3].
+Amazon's total **revenue (net sales)** for the fiscal year ended December 31, 2023, was **$574.785 billion** [2]. This represents a **12% year-over-year increase** compared to 2022, when revenue was $513.983 billion [2]. 
 
-### Key Revenue Breakdown
-- **Google Search & other properties**: $175.033 billion  
-- **YouTube ads**: $31.510 billion  
-- **Google Network**: $31.312 billion  
-- **Google advertising**: $237.855 billion  
-- **Google subscriptions, platforms, and devices**: $34.688 billion  
-- **Google Cloud**: $33.088 billion  
-- **Other Bets**: $1.527 billion  
-- **Hedging gains (losses)**: $236 million  
+### Breakdown by Segment
+Amazon's revenue is divided into three segments:
+- **North America**: $352.828 billion (61% of total revenue)
+- **International**: $131.200 billion (23% of total revenue)
+- **AWS**: $90.757 billion (16% of total revenue)
 
-### Geographic Distribution
-- **United States**: 47% of total revenue ($146.286 billion)  
-- **EMEA (Europe, Middle East, Africa)**: 30% of total revenue ($91.038 billion)  
-- **APAC (Asia-Pacific)**: 17% of total revenue ($51.514 billion)  
-- **Other Americas**: 6% of total revenue ($18.320 billion)  
+### Key Drivers of Growth
+- **North America** saw 12% growth, driven by increased unit sales from third-party sellers, advertising, and subscription services [2].
+- **International** revenue rose 11%, benefiting from similar factors, with foreign exchange rates positively impacting results by $88 million [2].
+- **AWS** grew by 13%, contributing significantly to overall expansion [2].
 
-### Additional Context
-- **Revenue backlog**: As of December 31, 2023, Google had $74.1 billion in remaining performance obligations, primarily tied to Google Cloud contracts [3].  
-- **Deferred revenue**: Total deferred revenue as of December 31, 2022, was $4.5 billion, with $2.4 billion recognized as revenue in 2023 [3].  
+### Adjustments and Context
+- **Foreign exchange rates** reduced net sales by $71 million in 2023, though the 12% growth rate reflects adjustments for these effects [2].
+- The **consolidated revenue mix** remained consistent across segments, with no significant shifts in proportion [2].
 
-These figures reflect Google's diversified revenue streams across advertising, cloud services, subscriptions, and emerging initiatives.  
+### Additional Insights
+- **Unearned revenue** as of December 31, 2023, reached $20.6 billion, reflecting prepayments for AWS services and Amazon Prime memberships [3].
+- **Free cash flow** remained a key focus, though specific figures are detailed in the "Non-GAAP Financial Measures" section of the 10-K [1].
 
-**References:**  
-1. Company: Google, Year: 2023, Quarter: N/A, Page: 64  
-2. Company: Google, Year: 2023, Quarter: N/A, Page: 42  
-3. Company: Google, Year: 2023, Quarter: N/A, Page: 64
+**References:**
+1. Company: Amazon, Year: 2023, Quarter: Full Year, Page: 20  
+2. Company: Amazon, Year: 2023, Quarter: Full Year, Page: 24  
+3. Company: Amazon, Year: 2023, Quarter: Full Year, Page: 51
