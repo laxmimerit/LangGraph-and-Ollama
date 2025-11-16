@@ -10,6 +10,8 @@ from langchain_core.messages import HumanMessage
 LLM_MODEL = "qwen3"
 BASE_URL = "http://localhost:11434"
 
+llm = ChatOllama(model=LLM_MODEL, base_url=BASE_URL, temperature=0)
+
 async def create_graph():
     """Create Airbnb graph."""
     client = MultiServerMCPClient({
@@ -23,10 +25,10 @@ async def create_graph():
     tools = await client.get_tools()
     print(f"Loaded {len(tools)} tools")
     
-    llm = ChatOllama(model=LLM_MODEL, base_url=BASE_URL, temperature=0)
-    
     def agent(state):
-        return {"messages": [llm.bind_tools(tools).invoke(state["messages"])]}
+        llm_with_tools = llm.bind_tools(tools)
+        response = llm_with_tools.invoke(state["messages"])
+        return {"messages": [response]}
     
     builder = StateGraph(dict)
     builder.add_node("agent", agent)
