@@ -1,34 +1,22 @@
-Query: Compare Apple and Amazon revenue in Q1 2024## Comparison of Apple and Amazon Revenue in Q1 2024
+Query: show me amazon's revenue in 2023?## Amazon's Revenue in 2023
 
-### **Apple Inc. Revenue**  
-Apple’s total net sales for Q1 2024 (three months ended March 30, 2024) were **$90.75 billion**, representing a **1.1% decline** compared to the same period in 2023 ($94.84 billion). The breakdown by product categories includes:  
-- **iPhone**: $45.96 billion (50.6% of total revenue)  
-- **Mac**: $7.45 billion (8.2%)  
-- **iPad**: $5.56 billion (6.1%)  
-- **Wearables, Home, and Accessories**: $7.91 billion (8.7%)  
-- **Services**: $23.87 billion (26.3%)  
+Amazon's total **net sales (revenue)** for the fiscal year ended December 31, 2023, amounted to **$574.785 billion** [3]. This represents a **12% year-over-year increase** compared to 2022, when net sales were $513.983 billion [3]. 
 
-Key metrics:  
-- **Deferred revenue**: $12.6 billion as of March 30, 2024, with 64% expected to be realized within one year [1].  
-- **Segment performance**: Segment operating income rose to $37.7 billion (Q1 2023: $37.49 billion) [1].  
+### Breakdown by Business Segment
+Amazon's revenue is divided across three segments:
+- **North America**: $352.828 billion (61% of total revenue) [3]
+- **International**: $131.200 billion (23% of total revenue) [3]
+- **AWS**: $90.757 billion (16% of total revenue) [3]
 
-### **Amazon.com Inc. Revenue**  
-Amazon’s consolidated net sales for Q1 2024 (three months ended March 31, 2024) were **$143.31 billion**, reflecting a **13% year-over-year increase** (adjusted for foreign exchange rates). Segment breakdown:  
-- **North America**: $86.34 billion (60% of total revenue)  
-- **International**: $31.94 billion (22%)  
-- **AWS**: $25.04 billion (18%)  
+### Key Drivers of Growth
+- **North America** saw a 12% growth, driven by increased unit sales from third-party sellers, advertising, and subscription services [3].
+- **International** revenue rose 11%, aided by similar factors, with foreign exchange rates adding $88 million to net sales in 2023 [3].
+- **AWS** grew by 13%, contributing significantly to overall expansion [3].
 
-Key metrics:  
-- **Foreign exchange impact**: A $164 million reduction in net sales due to currency fluctuations [1].  
-- **Growth drivers**: Increased unit sales, third-party seller activity, and subscription services [1].  
+### Currency Impact
+Changes in foreign exchange rates reduced net sales by $71 million in 2023, though this effect is excluded in the "year-over-year percentage growth" calculations [3].
 
-### **Comparison Summary**  
-- **Revenue Scale**: Amazon’s Q1 2024 revenue ($143.31 billion) was **59% higher** than Apple’s ($90.75 billion).  
-- **Growth Trends**: Amazon grew revenue by **13%** year-over-year, while Apple saw a **1.1% decline**.  
-- **Segment Diversity**: Amazon’s AWS segment contributed significantly to growth, whereas Apple’s iPhone remained its largest revenue source.  
-- **Deferred Revenue**: Apple had $12.6 billion in deferred revenue, compared to Amazon’s $20.9 billion in unearned revenue as of December 31, 2023 [2].  
-
-### **References**  
-1. Company: Apple, Year: 2024, Quarter: Q1, Page: 9 [3]  
-2. Company: Amazon, Year: 2024, Quarter: Q1, Page: 25 [1]  
-3. Company: Apple, Year: 2024, Quarter: Q1, Page: 9 [3]
+**References:**
+1. Company: Amazon, Year: 2023, Quarter: N/A, Page: 24  
+2. Company: Amazon, Year: 2023, Quarter: N/A, Page: 51  
+3. Company: Amazon, Year: 2023, Quarter: N/A, Page: 24

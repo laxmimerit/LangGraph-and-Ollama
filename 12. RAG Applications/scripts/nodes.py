@@ -1,18 +1,23 @@
-"""
-Self-RAG Nodes
-==============
+# 🔗 Join the Discord Community: https://discord.gg/RFjwbkNa
+# 
+# CLT + K CLT + 0
+# CLT + K CLT + J
+# ![image.png](attachment:image.png)
 
-Reusable nodes for Self-RAG flow that can be used across different RAG implementations.
-"""
-
+from typing_extensions import TypedDict, Annotated
+from typing import List
 import os
+import operator
 
-from langgraph.graph import END
+from langgraph.graph import StateGraph, START, END
 from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, SystemMessage
 from pydantic import BaseModel, Field
 
 from scripts import my_tools
+
+from dotenv import load_dotenv
+load_dotenv()
 
 # =============================================================================
 # Configuration
@@ -26,48 +31,38 @@ llm = ChatOllama(model=LLM_MODEL, base_url=BASE_URL, reasoning=True)
 # =============================================================================
 # Pydantic Schemas for Structured Outputs
 # =============================================================================
-
 class GradeDocuments(BaseModel):
-    """Binary score for relevance check on retrieved documents"""
+    """Binary score for relevance check on retrieved documents."""
     binary_score: str = Field(description="Documents are relevant to the query, 'yes' or 'no'")
 
 
 class GradeHallucinations(BaseModel):
-    """Binary score for hallucination present in generation answer"""
+    """Binary score for hallucination present in generation answer."""
     binary_score: str = Field(description="Answer is grounded with the facts for the query, 'yes' or 'no'")
 
 
 class GradeAnswer(BaseModel):
-    """Binary score to assess answer addresses query"""
+    """Binary score to assess answer addresses query."""
     binary_score: str = Field(description="Answer addresses the query, 'yes' or 'no'")
 
 
 class SearchQueries(BaseModel):
-    """Search queries for retrieving missing information"""
+    """Search queries for retrieving missing information."""
     search_queries: list[str] = Field(description="1-3 search queries to retrieve the missing information.")
 
+
 # =============================================================================
-# Helper Functions
+# Helper Function
 # =============================================================================
+def get_latest_user_query(messages:list):
 
-def get_latest_user_query(messages: list):
-    """Extract the latest user query from messages list
-
-    Iterates through messages in reverse order to find the most recent HumanMessage.
-    This supports multi-turn conversations where there may be multiple HumanMessages.
-
-    Args:
-        messages: List of messages (HumanMessage, AIMessage, etc.)
-
-    Returns:
-        str: Content of the latest HumanMessage
-    """
     for message in reversed(messages):
         if isinstance(message, HumanMessage):
             return message.content
+        
+    return messages[0].content if messages else ''
 
-    # Fallback to first message if no HumanMessage found in reverse
-    return messages[0].content if messages else ""
+
 
 # =============================================================================
 # LangGraph Nodes
@@ -75,9 +70,11 @@ def get_latest_user_query(messages: list):
 
 # Retrieve documents based on user query
 def retrieve_node(state):
+
     print("[RETRIEVE] fetching documents...")
 
     query = get_latest_user_query(state['messages'])
+
     rewritten_queries = state.get('rewritten_queries', [])
 
     # use rewriten queries if present
@@ -93,7 +90,9 @@ def retrieve_node(state):
         text = f"## Query {idx}: {search_query}\n\n### Retrieved Documents:\n{result}"
         all_results.append(text)
 
+
     combined_result = "\n\n".join(all_results)
+
 
     os.makedirs('debug_logs', exist_ok=True)
     with open('debug_logs/self_rag.md', 'w', encoding='utf-8') as f:
@@ -103,8 +102,10 @@ def retrieve_node(state):
         'retrieved_docs': combined_result
     }
 
+
 # Grade document relevance and filter out irrelevant ones
 def grade_documents_node(state):
+
     print("[GRADE] Evaluating document relevance")
 
     query = get_latest_user_query(state['messages'])
@@ -119,8 +120,10 @@ def grade_documents_node(state):
                 If the document contains keyword(s) or semantic meaning related to the user query, grade it as relevant.
 
                 Give a binary score 'yes' or 'no' to indicate whether the document is relevant to the query."""
+    
 
     system_msg = SystemMessage(system_prompt)
+
     messages = [system_msg, HumanMessage(f"Retrieved Document: {documents}\n\nUser query: {query}")]
 
     response = llm_structured.invoke(messages)
@@ -129,6 +132,7 @@ def grade_documents_node(state):
 
     if response.binary_score == 'yes':
         return {'retrieved_docs': documents}
+    
     else:
         return {'retrieved_docs': ''}
 
@@ -158,7 +162,7 @@ def generate_node(state):
                 At the end, list references in this format:
                 **References:**
                 1. Company: x, Year: y, Quarter: z, Page: n"""
-
+    
     query_prompt = f"Retrieved Document: {documents}\n\nUser query: {query}"
 
     system_msg = SystemMessage(system_prompt)
@@ -179,6 +183,7 @@ def generate_node(state):
 
 # Transform the query to produce better search queries
 def transform_query_node(state):
+
     query = get_latest_user_query(state['messages'])
     rewritten_queries = state.get('rewritten_queries', [])
 
@@ -201,14 +206,15 @@ def transform_query_node(state):
                 - Avoid repeating previously tried queries
 
                 EXAMPLES:
-                - "Compare Apple and Google revenue in 2024 Q1" →
+                - "Compare Apple and Google revenue in 2024 Q1" → 
                 ["Apple total revenue Q1 2024", "Google total revenue Q1 2024"]
-
+                
                 - "Amazon's revenue growth from 2022 to 2024" →
                 ["Amazon revenue 2022", "Amazon revenue 2023", "Amazon revenue 2024"]
-
+                
                 - "What were the main risks for Microsoft in 2023?" →
                 ["Microsoft risk factors 2023", "Microsoft business challenges 2023"]"""
+                
 
     query_context = f"Original Query: {query}"
     if rewritten_queries:
@@ -232,6 +238,10 @@ def transform_query_node(state):
         "rewritten_queries": new_queries
     }
 
+
+
+# ### Router Logic
+
 # =============================================================================
 # Router Logic
 # =============================================================================
@@ -241,22 +251,24 @@ def should_generate(state):
     print("[ROUTER] Assess graded documents")
 
     retrieved_docs = state.get('retrieved_docs', '')
-
+    
     if not retrieved_docs or retrieved_docs.strip() == '':
         print(f"[ROUTER] No relevant documents - transforming query")
         return 'transform_query'
+
     else:
         print('[ROUTER] Have relevant documents - generating answer')
         return 'generate'
 
 # Check for hallucinations and whether answer addresses query
 def check_answer_quality(state):
+
     query = get_latest_user_query(state['messages'])
     documents = state.get('retrieved_docs', '')
     generation = state['messages'][-1].content
 
     llm_hallucinations = llm.with_structured_output(GradeHallucinations)
-
+    
     hallucination_prompt = """You are a grader assessing whether an LLM generation is grounded in / supported by a set of retrieved facts.
 
     Give a binary score 'yes' or 'no'. 'Yes' means that the answer is grounded in / supported by the set of facts."""
@@ -282,9 +294,11 @@ def check_answer_quality(state):
                         Give a binary score 'yes' or 'no'. 'Yes' means that the answer resolves the query."""
 
         system_msg = SystemMessage(answer_prompt)
+
         user_msg = HumanMessage(f"User Query: {query}\n\n LLM Generation: {generation}")
 
         messages = [system_msg, user_msg]
+
         answer_response = llm_answer.invoke(messages)
         answer_grade = answer_response.binary_score
 
@@ -294,7 +308,9 @@ def check_answer_quality(state):
         else:
             print("[ROUTER] Generation does not address the query - NOT USEFUL")
             return "transform_query"
+
     else:
         print("[ROUTER] Generation NOT grounded in the response")
-        return 'generate'
+        return 'generate'    
+
 
