@@ -23,31 +23,37 @@ llm = ChatOllama(model=LLM_MODEL, base_url=BASE_URL, temperature=0)
 class AgentState(TypedDict):
     messages: Annotated[list, operator.add]
 
+async def get_tools():
+    client = MultiServerMCPClient(
+        {
+            "airbnb": {
+                "command": "npx",
+                "args": [
+                    "-y",
+                    "@openbnb/mcp-server-airbnb",
+                    "--ignore-robots-txt"
+                ],
+                "transport": "stdio"
+            }
+        }
+    )
+    tools = await client.get_tools()
+    print(f"Loaded {len(tools)}")
+    print(f"Tools: {tools}")
+
+    return tools
+
+# create in-function agent node
+async def agent(state: AgentState):
+    tools = await get_tools()
+    llm_with_tools = llm.bind_tools(tools)
+    response = llm_with_tools.invoke(state['messages'])
+    return {'messages': [response]}
+
+# make sure to install npx and node
 async def create_agent():
 
-    client = MultiServerMCPClient(
-    {
-        "airbnb": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@openbnb/mcp-server-airbnb",
-                "--ignore-robots-txt"
-            ],
-            "transport": "stdio"
-    }
-    }
-)
-    
-    tools = await client.get_tools()
-    print(f"Loaded {len(tools)} Tools.: {tools}")
-
-    
-    # create in-function agent node
-    def agent(state: AgentState):
-        llm_with_tools = llm.bind_tools(tools)
-        response = llm_with_tools.invoke(state['messages'])
-        return {'messages': [response]}
+    tools = await get_tools()
 
     builder = StateGraph(AgentState)
     builder.add_node('agent', agent)
