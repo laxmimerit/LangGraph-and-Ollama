@@ -1,11 +1,11 @@
 --- Document 1 ---
-file_hash: c08079bc14250c896f3ca151f9a72ecc1ddcb9ca8e5b021539e91af10fae5c4b
 fiscal_year: 2024
-source_file: amazon 10-q q1 2024.pdf
-page: 25
-company_name: amazon
-doc_type: 10-q
 fiscal_quarter: q1
+page: 25
+file_hash: c08079bc14250c896f3ca151f9a72ecc1ddcb9ca8e5b021539e91af10fae5c4b
+doc_type: 10-q
+company_name: amazon
+source_file: amazon 10-q q1 2024.pdf
 
 Content:
 
@@ -54,13 +54,13 @@ International sales increased 10% in Q1 2024 compared to the comparable prior ye
 
 
 --- Document 2 ---
-page: 9
-fiscal_quarter: q1
 source_file: amazon 10-q q1 2024.pdf
-file_hash: c08079bc14250c896f3ca151f9a72ecc1ddcb9ca8e5b021539e91af10fae5c4b
 doc_type: 10-q
-fiscal_year: 2024
+fiscal_quarter: q1
+file_hash: c08079bc14250c896f3ca151f9a72ecc1ddcb9ca8e5b021539e91af10fae5c4b
+page: 9
 company_name: amazon
+fiscal_year: 2024
 
 Content:
 
@@ -101,13 +101,13 @@ In December 2023, the Financial Accounting Standards Board issued an Accounting 
 
 
 --- Document 3 ---
-fiscal_year: 2024
-fiscal_quarter: q1
 source_file: amazon 10-q q1 2024.pdf
-doc_type: 10-q
-page: 12
 file_hash: c08079bc14250c896f3ca151f9a72ecc1ddcb9ca8e5b021539e91af10fae5c4b
 company_name: amazon
+doc_type: 10-q
+fiscal_quarter: q1
+fiscal_year: 2024
+page: 12
 
 Content:
 
