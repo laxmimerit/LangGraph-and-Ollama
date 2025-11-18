@@ -1,153 +1,119 @@
-Original Query: What was Google's revenue in 2023?
-Rewritten Queries: ['Google total revenue 2023']
+Original Query: What was Amazon's revenue in 2023?
 
 
-
-## Query 1: Google total revenue 2023
+## Query 1: What was Amazon's revenue in 2023?
 
 ### Retrieved Documents:
 --- Document 1 ---
-doc_type: 10-k
-source_file: google 10-k 2023.pdf
-company_name: google
+file_hash: 6e5549c7b20b0fbc5f482397070a1e85cbf8643c801ff570903f52366b11154f
+company_name: amazon
+page: 20
 fiscal_year: 2023
-page: 63
-file_hash: 1dceed8775b7b56432618aff917e08f9fe9573921f397a79b14bad5ab31e469a
+doc_type: 10-k
+source_file: amazon 10-k 2023.pdf
 
 Content:
 
 
-to generate. If the carrying value of the assets or asset group is not recoverable, the impairment recognized is measured as the amount by which the carrying value exceeds its fair value.
+## Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations
 
-## Income Taxes
+## Forward-Looking Statements
 
-We account for income taxes using the asset and liability method, under which we recognize the amount of taxes payable or refundable for the current year and deferred tax assets and liabilities for the future tax consequences of events that have been recognized in our financial statements or tax returns. We measure current and deferred tax assets and liabilities based on provisions of enacted tax law. We evaluate the likelihood of future realization of our deferred tax assets based on all available evidence and establish a valuation allowance to reduce deferred tax assets when it is more likely than not that they will not be realized or release a valuation allowance to increase deferred tax assets when it is more likely than not that they will be realized. We have elected to account for the tax effects of the global intangible low tax Income provision as a current period expense.
+This Annual Report on Form 10-K includes forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. All statements other than statements of historical fact, including statements regarding guidance, industry prospects, or future results of operations or financial position, made in this Annual Report on Form 10-K are forward-looking. We use words such as anticipates, believes, expects, future, intends, and similar expressions to identify forward-looking statements. Forward-looking statements reflect management's current expectations and are inherently uncertain. Actual results and outcomes could differ materially for a variety of reasons, including, among others, fluctuations in foreign exchange rates, changes in global economic conditions and customer demand and spending, inflation, interest rates, regional labor market constraints, world events, the rate of growth of the internet, online commerce, cloud services, and new and emerging technologies, the amount that Amazon.com invests in new business opportunities and the timing of those investments, the mix of products and services sold to customers, the mix of net sales derived from products as compared with services, the extent to which we owe income or other taxes, competition, management of growth, potential fluctuations in operating results, international growth and expansion, the outcomes of claims, litigation, government investigations, and other proceedings, fulfillment, sortation, delivery, and data center optimization, risks of inventory management, variability in demand, the degree to which we enter into, maintain, and develop commercial agreements, proposed and completed acquisitions and strategic transactions, payments risks, and risks of fulfillment throughput and productivity. In addition, global economic and geopolitical conditions and additional or unforeseen circumstances, developments, or events may give rise to or amplify many of these risks. These risks and uncertainties, as well as other risks and uncertainties that could cause our actual results or outcomes to differ significantly from management's expectations, are described in greater detail in Item 1A of Part I, 'Risk Factors.'
 
-We recognize the financial statement effects of a tax position when it is more likely than not that, based on technical merits, the position will be sustained upon examination. The tax benefits of the position recognized in the financial statements are then measured based on the largest amount of benefit that is greater than 50% likely to be realized upon settlement with a taxing authority. In addition, we recognize interest and penalties related to unrecognized tax benefits as a component of the income tax provision.
+## Overview
 
-## Business Combinations
+Our primary source of revenue is the sale of a wide range of products and services to customers. The products offered through our stores include merchandise and content we have purchased for resale and products offered by third-party sellers, and we also manufacture and sell electronic devices and produce media content. Generally, we recognize gross revenue from items we sell from our inventory as product sales and recognize our net share of revenue of items sold by third-party sellers as service sales. We seek to increase unit sales across our stores, through increased product selection, across numerous product categories. We also offer other services such as compute, storage, and database offerings, fulfillment, advertising, publishing, and digital content subscriptions.
 
-We include  the  results  of  operations  of  the  businesses  that  we  acquire  as  of  the  acquisition  date.  We  allocate  the  purchase  price  of  the acquisitions to the assets acquired and liabilities assumed based on their estimated fair values, except for revenue contracts acquired, which are recognized  in  accordance  with  our  revenue  recognition  policy.  The  excess  of  the  purchase  price  over  the  fair  values  of  identifiable  assets  and liabilities  is  recorded  as  goodwill.  Acquisition-related  expenses  are  recognized  separately  from  the  business  combination  and  are  expensed  as incurred.
+Our financial focus is on long-term, sustainable growth in free cash flows. Free cash flows are driven primarily by increasing operating income and efficiently managing accounts receivable, inventory, accounts payable, and cash capital expenditures, including our decision to purchase or lease property and equipment. Increases in operating income primarily result from increases in sales of products and services and efficiently managing our operating costs, partially offset by investments we make in longer-term strategic initiatives, including capital expenditures focused on improving the customer experience. To increase sales of products and services, we focus on improving all aspects of the customer experience, including lowering prices, improving availability, offering faster delivery and performance times, increasing selection, producing original content, increasing product categories and service offerings, expanding product information, improving ease of use, improving reliability, and earning customer trust. See 'Results of Operations - Non-GAAP Financial Measures' below for additional information on our non-GAAP free cash flows financial measures.
 
-## Foreign Currency
+We seek to reduce our variable costs per unit and work to leverage our fixed costs. Our variable costs include product and content costs, payment processing and related transaction costs, picking, packaging, and preparing orders for shipment, transportation, customer service support, costs necessary to run AWS, and a portion of our marketing costs. Our fixed costs include the costs necessary to build and run our technology infrastructure; to build, enhance, and add features to our online stores, web services, electronic devices, and digital offerings; and to build and optimize our fulfillment network. Variable costs generally change directly with sales volume, while fixed costs generally are dependent on the timing of capacity needs, geographic expansion, category expansion, and other factors. To decrease our variable costs on a per unit basis and enable us to lower prices for customers, we seek to increase our direct sourcing, increase discounts from suppliers, and reduce defects in our processes. To minimize unnecessary growth in fixed costs, we seek to improve process efficiencies and maintain a lean culture.
 
-We translate the financial statements of our international subsidiaries to U.S. dollars using month-end exchange rates for assets and liabilities, and average rates for the annual period derived from month-end exchange rates for revenues, costs, and expenses. We record translation gains and losses in AOCI as a component of stockholders' equity. We reflect net foreign exchange transaction gains and losses resulting from the conversion of the transaction currency to functional currency as a component of foreign currency exchange gain (loss) in OI&amp;E.
-
-## Recent Accounting Pronouncements
-
-In November 2023, the Financial Standards Accounting Board (FASB) issued Accounting Standards Update (ASU) 2023-07 "Segment Reporting (Topic 280):Improvements to Reportable Segment Disclosures" which expands annual and interim disclosure requirements for reportable segments, primarily through enhanced disclosures about significant segment expenses. ASU 2023-07 is effective for our annual periods beginning January 1, 2024,  and  for  interim  periods  beginning  January  1,  2025,  with  early  adoption  permitted.  We  are  currently  evaluating  the  potential  effect  that  the updated standard will have on our financial statement disclosures.
-
-In  December  2023,  the  FASB  issued ASU  2023-09  "Income  Taxes  (Topics  740):  Improvements  to  Income  Tax  Disclosures"  to  expand  the disclosure requirements for income taxes, specifically related to the rate reconciliation and income taxes paid. ASU 2023-09 is effective for our annual periods beginning January 1, 2025, with early adoption permitted. We are currently evaluating the potential effect that the updated standard will have on our financial statement disclosures.
-
-## Prior Period Reclassifications
-
-Certain amounts in prior periods have been reclassified to conform with current period presentation.
+We seek to turn inventory quickly and collect from consumers before our payments to vendors and sellers become due. Because consumers primarily use credit cards in our stores, our receivables from consumers settle quickly. We expect variability in inventory turnover over time since it is affected by numerous factors, including our product mix, the mix of sales by us and by third-party sellers, our continuing focus on in-stock inventory availability and selection of product offerings, supply chain disruptions and resulting vendor lead times, our investment in new geographies and product lines, and the extent to which we choose to utilize third-party fulfillment providers. We also expect some variability in accounts payable days over time since they are affected by several factors, including the mix of product sales, the mix of sales by third-party sellers, the mix
 
 
 --- Document 2 ---
 fiscal_year: 2023
-page: 57
+source_file: amazon 10-k 2023.pdf
 doc_type: 10-k
-file_hash: 1dceed8775b7b56432618aff917e08f9fe9573921f397a79b14bad5ab31e469a
-company_name: google
-source_file: google 10-k 2023.pdf
+company_name: amazon
+file_hash: 6e5549c7b20b0fbc5f482397070a1e85cbf8643c801ff570903f52366b11154f
+page: 51
 
 Content:
 
 
-## Alphabet Inc. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+2023. As of December 31, 2022 and 2023, our total self-insurance liabilities were $4.0 billion and $6.3 billion and are included in 'Accrued expenses and other' on our consolidated balance sheets.
 
-## Note 1. Summary of Significant Accounting Policies
+## Unearned Revenue
 
-## Nature of Operations
+Unearned revenue is recorded when payments are received or due in advance of performing our service obligations and is recognized over the service period. Unearned revenue primarily relates to prepayments of AWS services and Amazon Prime memberships. Our total unearned revenue as of December 31, 2022 was $16.1 billion, of which $12.4 billion was recognized as revenue during the year ended December 31, 2023 and our total unearned revenue as of December 31, 2023 was $20.6 billion. Included in 'Other long-term liabilities' on our consolidated balance sheets was $2.9 billion and $5.7 billion of unearned revenue as of December 31, 2022 and 2023.
 
-Google  was  incorporated  in  California  in  September  1998  and  re-incorporated  in  the  State  of  Delaware  in  August  2003.  In  2015,  we implemented a holding company reorganization, and as a result, Alphabet Inc. ("Alphabet") became the successor issuer to Google.
+Additionally, we have performance obligations, primarily related to AWS, associated with commitments in customer contracts for future services that have not yet been recognized in our financial statements. For contracts with original terms that exceed one year, those commitments not yet recognized were $155.7 billion as of December 31, 2023. The weighted average remaining life of our long-term contracts is 4.0 years. However, the amount and timing of revenue recognition is largely driven by customer usage, which can extend beyond the original contractual term.
 
-We generate revenues by delivering relevant, cost-effective online advertising; cloud-based solutions that provide enterprise customers with infrastructure and platform services as well as communication and collaboration tools; sales of other products and services, such as fees received for consumer subscription-based products, apps and in-app purchases, and devices.
+## Other Long-Term Liabilities
 
-## Basis of Consolidation
+Included in 'Other long-term liabilities' on our consolidated balance sheets are liabilities primarily related to financing obligations, unearned revenue, asset retirement obligations, tax contingencies, digital video and music content, and deferred tax liabilities.
 
-The consolidated financial statements of Alphabet include the accounts of Alphabet and entities consolidated under the variable interest and voting models. Intercompany balances and transactions have been eliminated.
+## Foreign Currency
 
-## Use of Estimates
+We have internationally-focused stores for which the net sales generated, as well as most of the related expenses directly incurred from those operations, are denominated in local functional currencies. The functional currency of our subsidiaries that either operate or support these stores is generally the same as the local currency. Assets and liabilities of these subsidiaries are translated into U.S. Dollars at period-end foreign exchange rates, and revenues and expenses are translated at average rates prevailing throughout the period. Translation adjustments are included in 'Accumulated other comprehensive income (loss),' a separate component of stockholders' equity. Transaction gains and losses including intercompany transactions denominated in a currency other than the functional currency of the entity involved are included in 'Other income (expense), net' on our consolidated statements of operations. In connection with the settlement and remeasurement of intercompany balances, we recorded gains (losses) of $19 million, $386 million, and $(329) million in 2021, 2022, and 2023.
 
-Preparation  of  consolidated  financial  statements  in  conformity  with  GAAP  requires  us  to  make  estimates  and  assumptions  that  affect  the amounts reported and disclosed in the financial statements and the accompanying notes. Actual results could differ materially from these estimates due to uncertainties. On an ongoing basis, we evaluate our estimates, including those related to the allowance for credit losses; content licenses; contingent liabilities; fair values of financial instruments and goodwill; income taxes; inventory; and useful lives of property and equipment, among others. We base our estimates on assumptions, both historical and forward looking, that are believed to be reasonable, and the results of which form the basis for making judgments about the carrying values of assets and liabilities.
+## Accounting Pronouncements Not Yet Adopted
 
-In January 2023, we completed an assessment of the useful lives of our servers and network equipment and adjusted the estimated useful life of our servers from four years to six years and the estimated useful life of certain network equipment from five years to six years. This change in accounting  estimate  was  effective  beginning  in  fiscal  year  2023.  Based  on  the  carrying  value  of  servers  and  certain  network  equipment  as  of December 31, 2022, and those placed in service during the year ended December 31, 2023, the effect of this change in estimate was a reduction in depreciation expense of $3.9 billion and an increase in net income of $3.0 billion, or $0.24 per basic and $0.24 per diluted share, for the year ended December 31, 2023.
-
-## Revenue Recognition
-
-Revenues are recognized when control of the promised goods or services is transferred to our customers, and the collectibility of an amount that we expect in exchange for those goods or services is probable. Sales and other similar taxes are excluded from revenues.
-
-## Advertising Revenues
-
-We generate advertising revenues primarily by delivering advertising on:
-
-- Google Search and other properties, including revenues from traffic generated by search distribution partners who use Google.com as their default search in browsers, toolbars, etc. and other Google owned and operated properties like Gmail, Google Maps, and Google Play;
-- YouTube properties; and
-- Google Network properties, including revenues from Google Network properties participating in AdMob, AdSense, and Google Ad Manager.
-
-Our customers generally purchase advertising inventory through Google Ads, Google Ad Manager, Google Display &amp; Video 360, and Google Marketing Platform, among others.
-
-We offer advertising by delivering both performance and brand advertising. We recognize revenues for performance advertising when a user engages with the advertisement. For brand advertising, we recognize revenues when the ad is displayed, or a user views the ad.
-
-For ads placed on Google Network properties, we evaluate whether we are the principal (i.e., report revenues on a gross basis) or agent (i.e., report revenues on a net basis). Generally, we report advertising revenues for ads placed on Google Network properties on a gross basis, that is, the amounts billed to our customers are recorded as revenues,
+In December 2023, the Financial Accounting Standards Board issued an Accounting Standards Update ('ASU') amending existing income tax disclosure guidance, primarily requiring more detailed disclosure for income taxes paid and the effective tax rate reconciliation. The ASU is effective for annual reporting periods beginning after December 15, 2024, with early adoption permitted and can be applied on either a prospective or retroactive basis. We are currently evaluating the ASU to determine its impact on our income tax disclosures.
 
 
 --- Document 3 ---
-file_hash: 1dceed8775b7b56432618aff917e08f9fe9573921f397a79b14bad5ab31e469a
 fiscal_year: 2023
-company_name: google
-source_file: google 10-k 2023.pdf
-page: 42
+source_file: amazon 10-k 2023.pdf
+page: 24
+company_name: amazon
 doc_type: 10-k
+file_hash: 6e5549c7b20b0fbc5f482397070a1e85cbf8643c801ff570903f52366b11154f
 
 Content:
 
 
-The following table presents our cash flows (in millions):
+## Results of Operations
 
-|                                           | Year Ended December 31,   | Year Ended December 31,   |
-|-------------------------------------------|---------------------------|---------------------------|
-|                                           | 2022                      | 2023                      |
-| Net cash provided by operating activities | $ 91,495                  | $ 101,746                 |
-| Net cash used in investing activities     | $ (20,298)                | $ (27,063)                |
-| Net cash used in financing activities     | $ (69,757)                | $ (72,093)                |
+We have organized our operations into three segments: North America, International, and AWS. These segments reflect the way the Company evaluates its business performance and manages its operations. See Item 8 of Part II, 'Financial Statements and Supplementary Data - Note 10 - Segment Information.'
 
-## Cash Provided by Operating Activities
+## Overview
 
-Our largest source of cash provided by operations are advertising revenues generated by Google Search &amp; other properties, Google Network properties, and YouTube properties. In Google Services, we also generate cash through consumer subscriptions and the sale of apps and in-app purchases  and  devices.  In  Google  Cloud  we  generate  cash  through  consumption-based  fees  and  subscriptions  for  infrastructure,  platform, collaboration tools, and other cloud services.
+Macroeconomic factors, including inflation, increased interest rates, significant capital market and supply chain volatility, and global economic and geopolitical developments, have direct and indirect impacts on our results of operations that are difficult to isolate and quantify. In addition, changes in fuel, utility, and food costs, interest rates, and economic outlook may impact customer demand and our ability to forecast consumer spending patterns. We also expect the current macroeconomic environment and enterprise customer cost optimization efforts to impact our AWS revenue growth rates. We expect some or all of these factors to continue to impact our operations into Q1 2024.
 
-Our  primary  uses  of  cash  from  operating  activities  include  payments  to  distribution  and  Google  Network  partners,  to  employees  for compensation, and to content providers. Other uses of cash from operating activities include payments to suppliers for devices, to tax authorities for income taxes, and other general corporate expenditures.
+## Net Sales
 
-Net cash provided by operating activities increased from 2022 to 2023 due to the increase in cash received from customers, partially offset by increases in cash paid for cost of revenues and operating expenses.
+Net sales include product and service sales. Product sales represent revenue from the sale of products and related shipping fees and digital media content where we record revenue gross. Service sales primarily represent third-party seller fees, which includes commissions and any related fulfillment and shipping fees, AWS sales, advertising services, Amazon Prime membership fees, and certain digital media content subscriptions. Net sales information is as follows (in millions):
 
-## Cash Used in Investing Activities
+|                                                                                   | Year Ended December 31,   | Year Ended December 31,   |
+|-----------------------------------------------------------------------------------|---------------------------|---------------------------|
+|                                                                                   | 2022                      | 2023                      |
+| Net Sales:                                                                        |                           |                           |
+| North America                                                                     | $ 315,880                 | $ 352,828                 |
+| International                                                                     | 118,007                   | 131,200                   |
+| AWS                                                                               | 80,096                    | 90,757                    |
+| Consolidated                                                                      | $ 513,983                 | $ 574,785                 |
+| Year-over-year Percentage Growth (Decline):                                       |                           |                           |
+| North America                                                                     | 13%                       | 12%                       |
+| International                                                                     | (8)                       | 11                        |
+| AWS                                                                               | 29                        | 13                        |
+| Consolidated                                                                      | 9                         | 12                        |
+| Year-over-year Percentage Growth, excluding the effect of foreign exchange rates: |                           |                           |
+| North America                                                                     | 13%                       | 12%                       |
+| International                                                                     | 4                         | 11                        |
+| AWS                                                                               | 29                        | 13                        |
+| Consolidated                                                                      | 13                        | 12                        |
+| Net Sales Mix:                                                                    |                           |                           |
+| North America                                                                     | 61%                       | 61%                       |
+| International                                                                     | 23                        | 23                        |
+| AWS                                                                               | 16                        | 16                        |
+| Consolidated                                                                      | 100%                      | 100%                      |
 
-Cash provided by investing activities  consists  primarily  of  maturities  and  sales  of  investments  in  marketable  and  non-marketable  securities. Cash used in investing activities consists primarily of purchases of marketable and non-marketable securities, purchases of property and equipment, and payments for acquisitions.
+Sales increased 12% in 2023, compared to the prior year. Changes in foreign exchange rates reduced net sales by $71 million in 2023. For a discussion of the effect of foreign exchange rates on sales growth, see 'Effect of Foreign Exchange Rates' below.
 
-Net cash used in investing activities increased from 2022 to 2023 due to a decrease in maturities and sales of marketable securities, partially offset by a decrease in payments for acquisitions.
+North America sales increased 12% in 2023, compared to the prior year. The sales growth primarily reflects increased unit sales, primarily by third-party sellers, advertising sales, and subscription services. Increased unit sales were driven largely by our continued focus on price, selection, and convenience for our customers, including from our shipping offers.
 
-## Cash Used in Financing Activities
-
-Cash  provided  by  financing  activities  consists  primarily  of  proceeds  from  issuance  of  debt  and  proceeds  from  the  sale  of  interests  in consolidated  entities.  Cash  used  in  financing  activities  consists  primarily  of  repurchases  of  stock,  net  payments  related  to  stock-based  award activities, and repayments of debt.
-
-Net cash used in financing activities increased from 2022 to 2023 due to an increase in repurchases of stock.
-
-## Liquidity and Material Cash Requirements
-
-We expect existing cash, cash equivalents, short-term marketable securities, cash flows from operations and financing activities to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities for at least the next 12 months and thereafter for the foreseeable future.
-
-## Capital Expenditures and Leases
-
-We make investments in land and buildings for data centers and offices and information technology assets through purchases of property and equipment and lease arrangements to provide capacity for the growth of our services and products.
-
-## Capital Expenditures
-
-Our capital investments in property and equipment consist primarily of the following major categories:
-
-- technical  infrastructure,  which  consists  of  our  investments  in  servers  and  network  equipment  for  computing,  storage,  and  networking requirements for ongoing business activities, including AI, (collectively referred to as our information technology assets) and data center land and building construction; and
-- office facilities, ground-up development projects, and building improvements (also referred to as "fit-outs").
-
-Construction in progress consists primarily of technical infrastructure and office facilities which have not yet been placed in service. The time frame from date of purchase to placement in service of these assets may extend from months to years. For example, our data center construction projects  are  generally  multi-year  projects  with  multiple  phases,  where  we  acquire  land  and  buildings,  construct  buildings,  and  secure  and  install information technology assets.
+International sales increased 11% in 2023, compared to the prior year. The sales growth primarily reflects increased unit sales, primarily by third-party sellers, advertising sales, and subscription services. Increased unit sales were driven largely by our continued focus on price, selection, and convenience for our customers, including from our shipping offers. Changes in foreign exchange rates increased International net sales by $88 million in 2023.
 
